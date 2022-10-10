@@ -52,7 +52,7 @@ typedef struct{
 
 /*
  * Description :
- * Initialize the ADC:
+ * Initialize the ADC
  */
 void ADC_init(const ADC_ConfigType * Config_Ptr);
 
@@ -60,7 +60,7 @@ void ADC_init(const ADC_ConfigType * Config_Ptr);
 
 /*
  * Description :
- * reads the channel from the ADC:
+ * reads the channel from the ADC
  */
 uint16 ADC_readChannel(uint8 ch_num);
 
